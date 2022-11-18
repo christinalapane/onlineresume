@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>LaPane</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+
+
+</head>
+<body>
+<!-- MOBILE NAVIGATION -->
+<section>
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="/" class="w3-bar-item w3-button w3-hover-none">Home</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#education" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">Education</a>
+        <a href="#certs" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">Certificates</a>
+        <a href="#skills" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">Skills and Projects</a>
+        <a href="#experience" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">Experience</a>
+
+      </div>
+
+       <!-- NAVIGATION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small" style="box-shadow:5px 5px grey">
+        <!--IMAGE/AVATAR-->
+        <img src="static/pic.jpg" class="w3-circle w3-border w3-border-grey" style="border-width: 3px !important;"/>
+          <br><br>
+          <h5>"You miss 100% of the shots you don't take. -Wayne Gretzky" - Michael Scott</h5>
+        <div class="w3-container w3-padding-large  w3-hide-small">
+            <ul class="w3-ul" style="font-weight: 500; color:#black;">
+                <li><a href="/" class="w3-bar-item w3-button"> Home</a></li>
+                <li><a href="#education" class="w3-bar-item w3-button"  onclick="toggleNavigation()">Education</a></li>
+                <li><a href="#certs" class="w3-bar-item w3-button" onclick="toggleNavigation()">Certificates</a></li>
+                <li><a href="#skills" class="w3-bar-item w3-button" onclick="toggleNavigation()">Skills and Projects</a></li>
+                <li><a href="#experience" class="w3-bar-item w3-button" onclick="toggleNavigation()">Experience</a></li>
+            </ul>
+        </div>
+
+      </section>
+
+<!--CV CONTENT SECTION-->
+      <section class=" w3-padding-large w3-right" style="margin-left:15%">
+
+
+<!-- ***************** About me/contact ***************** -->
+
+    <div class="content-container w3-margin-top2" style="margin-left:15% ">
+        <div id="/" class="w3-panel w3-border w3-round-xlarge" style="box-shadow: 5px 5px 5px 5px grey;">
+            <h1 class="w3-border-bottom w3-border-grey" style="border-width: 3px !important; padding:0; margin:0;"><b>Christina LaPane</b>
+
+                    <i style="font-size:30px"><a href="https://www.linkedin.com/in/christina-lapane/" class="fa fa-linkedin" style=color:#213458;" target="_blank"></a></i>
+                    <i style="font-size:30px"><a href="https://github.com/christinalapane" class="fa fa-github" style="color:#213458;" target="_blank"></a></i>
+
+            </h1>
+            <p> I recently graduated and trying to get my foot in the door to start my career.
+                I have beginner skills but, I also have the drive, eagerness, and work ethic to learn how to become a valuable teammate. </p>
+            <p>
+                <i style="font-size:25px"><a href="mailto:christinalapane@gmail.com" target="_blank" class="fa fa-envelope" style=" color:#213458;"></a></i><sm>Email Me</sm>
+                <i style="font-size:25px"><a href="static/Resume_LaPane.pdf" target="_blank" download="static/Resume_LaPane.pdf" class="fa fa-file" style="color:#213458;"></a></i><sm>Download Resume</sm>
+        </p>
+        </div>
+<!-- ***************** Education ***************** -->
+
+    <div id="education" class="w3-panel w3-border w3-round-xlarge" style="box-shadow: 5px 5px 5px 5px grey;">
+        <h2 class="w3-border-bottom w3-border-grey" style="border-width: 3px !important;">Education</h2>
+        <h4 style="padding:0;margin:0;"><b>MS Data Analytics</b></h4>
+        <h5 style="padding:0;margin:0;"><b>Western Governors University, August 2022 - November 2022</b></h5>
+        <p class="w3-margin-top-2">Micro Credentials:</p>
+        <table>
+            <tr>
+                <th><blockquote  class="badgr-badge" style="font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;"><a href="https://api.badgr.io/public/assertions/MXizpz3xRV6k7dopB6idxQ"><img width="80px" height="80px" src="https://api.badgr.io/public/assertions/MXizpz3xRV6k7dopB6idxQ/image"></a><p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word; margin: 0; font-size: 12px; font-weight: 300; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left; color: #05012c;">Data Preparation Micro-credential</p><p class="badgr-badge-date" style="margin: 0; font-size: 8px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 8px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded: </strong>Aug 15, 2022</p><p class="badgr-badge-recipient" style="margin: 0; font-size: 8px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 8px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded To: </strong><span style="display: block;"> Christina A LaPane</span></p><script async="async" src="https://wgu.badgr.com/assets/widgets.bundle.js" target="_blank"></script></blockquote></th>
+                <th><blockquote  class="badgr-badge" style="font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;"><a href="https://api.badgr.io/public/assertions/wKyAAgPmQoeweqfnke9T7w"><img width="80px" height="80px" src="https://api.badgr.io/public/assertions/wKyAAgPmQoeweqfnke9T7w/image"></a><p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word; margin: 0; font-size: 12px; font-weight: 300; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left; color: #05012c;">Data Analytics Fundamentals Micro-credential</p><p class="badgr-badge-date" style="margin: 0; font-size: 8px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 8px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded: </strong>Sep 20, 2022</p><p class="badgr-badge-recipient" style="margin: 0; font-size: 8px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 8px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded To: </strong><span style="display: block;"> Christina A LaPane</span></p><script async="async" src="https://wgu.badgr.com/assets/widgets.bundle.js" target="_blank"></script></blockquote></th>
+                <th><blockquote  class="badgr-badge" style="font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;"><a href="https://api.badgr.io/public/assertions/aZ983011RyawTiaQ0jeZ8Q"><img width="80px" height="80px" src="https://api.badgr.io/public/assertions/aZ983011RyawTiaQ0jeZ8Q/image"></a><p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word; margin: 0; font-size: 12px; font-weight: 300; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left; color: #05012c;">Advanced Data Modeling Micro-credential</p><p class="badgr-badge-date" style="margin: 0; font-size: 8px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 8px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded: </strong>Oct 16, 2022</p><p class="badgr-badge-recipient" style="margin: 0; font-size: 8px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;"><strong style="font-size: 8px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded To: </strong><span style="display: block;"> Christina A LaPane</span></p><script async="async" src="https://wgu.badgr.com/assets/widgets.bundle.js" target="_blank"></script></blockquote></th>
+
+            </tr>
+            </table>
+        <br><br>
+            <h4 style="padding:0;margin:0;"><b>BS Computer Science</b></h4>
+            <h5 style="padding:0;margin:0;"><b>Western Governors University, August 2021 - April 2022</b></h5>
+        <p class="w3-margin-top-2">Relevant Courses:</p>
+        <ul class="w3-ul" style="font-weight:500;">
+            <li>Algorithms</li>
+            <li>Networking</li>
+            <li>Cyber Security</li>
+            <li>Data Structures</li>
+        </ul>
+
+    </div>
+
+<!-- ***************** Certificates ***************** -->
+    <div id="certs" class="w3-panel w3-border w3-round-xlarge" style="box-shadow: 5px 5px 5px 5px grey;">
+        <h2 class="w3-border-bottom w3-border-grey" style="border-width: 3px !important;">Certificates and Degrees</h2>
+        <ul class="w3-ul" style="font-weight: 500;">
+            <li><a href="static/project.pdf" target="_blank">CompTIA Project+ </a></li>
+            <li><a href="static/e-cert.pdf" target="_blank">AXELOS ITIL Foundation IT Service Management</a></li>
+            <li>MSDA</li>
+            <li>BS Computer Science</li>
+        </ul>
+
+    </div>
+<!-- ***************** Skills ***************** -->
+    <div id="skills" class="w3-panel w3-border w3-round-xlarge" style="box-shadow: 5px 5px 5px 5px grey;">
+        <h2 class="w3-border-bottom w3-border-grey" style="border-width: 3px !important;">Skills and Projects</h2>
+        <br>
+        <h4 style="padding:0;margin:0;"><b>Programming Languages</b></h4>
+        <ul class="w3-ul" style="font-weight: 500;">
+            <li>C++, Python, Java, Ruby, JavaScript, Go, R, MySQL, PostreSQL </li>
+        </ul>
+        <br>
+        <h4 style="padding:0;margin:0;"><b>Technologies</b></h4>
+        <ul class="w3-ul" style="font-weight:500;">
+            <li>React.js, Ruby on Rails, Git, Node.js, Tableau, PowerBI, TensorFlow, NLP, Flask</li>
+        </ul>
+        <br>
+
+<!-- ***************** Projects ***************** -->
+        <h4 style="padding:0;margin:0;"><b>Projects</b></h4>
+        <ul class="w3-ul" style="font-weight:500;">
+            <li><a href="https://loan-prediction-capstone.herokuapp.com/" target="_blank">Computer Science Capstone Project</a></li>
+            <li><a href="/caraccident" target="_blank">Car Accident Prediction</a></li>
+            <li><a href="/time" target="_blank">Time Series Analysis</a></li>
+            <li><a href="/market" target="_blank">Market Basket Analysis on Prescriptions</a></li>
+            <li><a href="/sentiment" target="_blank">Sentiment Prediction</a> </li>
+            <li><a href="https://public.tableau.com/views/D210Dashboard_16632590533030/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank">Tableau Project</a> </li>
+        </ul>
+
+    </div>
+<!-- ***************** Experience ***************** -->
+    <div id="experience" class="w3-panel w3-border w3-round-xlarge" style="box-shadow: 5px 5px 5px 5px grey;">
+        <h2 class="w3-border-bottom w3-border-grey" style="border-width: 3px !important;">Experience</h2>
+        <h3 style="padding:0;margin:0;"><b>Student Role- Systems Engineer</b></h3>
+        <h4 style="padding:0;margin:0;"><b>NASA Scholar Program January 2021 - July 2021</b></h4>
+        <ul class="w3-ul" style="font-weight:500;">
+            <li>Work in a group with independent roles to create a simulated rover mission to Mars</li>
+            <li>As Systems Engineer I had to focus on timeline, purpose, and equipment needed for mission</li>
+            <li>Purpose was studying radiation on Mars to understand materials that could withstand it</li>
+            <li><b>Awarded Top Team</b></li>
+        </ul>
+        <br><br>
+
+        <h3 style="padding:0;margin:0;"><b>Sr Kitchen Manager</b></h3>
+        <h4 style="padding:0;margin:0;"><b>Cooper's Hawk Winery and Restaurant May 2016 - August 2020</b></h4>
+        <ul class="w3-ul" style="font-weight:500;">
+            <li>Developed hourly kitchen staff into managerial roles</li>
+            <li>Ordering product for daily service and special events</li>
+            <li>Created daily systems that were adopted by region that limited wasted costs</li>
+            <li>Awarded Restaurant of the Year, within the company</li>
+        </ul>
+    </div>
+    </div>
+
+</section>
+</section>
+
+
+
+</body>
+</html>
